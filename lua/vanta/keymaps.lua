@@ -51,3 +51,5 @@ okeymap("v", "<A-j>", ":m .+1<CR>==", opts)
 okeymap("v", "<A-k>", ":m .-2<CR>==", opts)
 okeymap("v", "p", '"_dP', opts)
 
+-- toggl spelling
+okeymap("n", "<F3>", ":set spell!<CR>", { silent = true })
